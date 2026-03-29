@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "dream",
-      "source": ".",
+      "source": "./",
       "description": "Memory consolidation for Claude Code. Simulates the Auto Dream feature by auditing, deduplicating, and rebuilding your memory files.",
       "version": "1.0.0",
       "category": "productivity",
