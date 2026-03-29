@@ -1,7 +1,7 @@
 {
   "name": "claude-dream",
   "owner": {
-    "name": "JonEcho"
+    "name": "jl-cmd"
   },
   "metadata": {
     "description": "Memory consolidation plugin for Claude Code — simulates Auto Dream"

@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/JonEcho/claude-dream/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
+  <a href="https://github.com/jl-cmd/claude-dream/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License" /></a>
   <a href="https://code.claude.com/docs/en/plugins"><img src="https://img.shields.io/badge/Claude_Code-plugin-blueviolet" alt="Claude Code Plugin" /></a>
 </p>
 
@@ -33,14 +33,14 @@ No changes are made without your approval.
 ### Option A: Plugin marketplace (recommended)
 
 ```
-/plugin marketplace add JonEcho/claude-dream
+/plugin marketplace add jl-cmd/claude-dream
 /plugin install dream@claude-dream
 ```
 
 ### Option B: Local plugin directory
 
 ```bash
-git clone https://github.com/JonEcho/claude-dream.git
+git clone https://github.com/jl-cmd/claude-dream.git
 claude --plugin-dir ./claude-dream
 ```
 

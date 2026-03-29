@@ -3,10 +3,10 @@
   "description": "Memory consolidation for Claude Code. Simulates the Auto Dream feature by auditing, deduplicating, and rebuilding your memory files.",
   "version": "1.0.0",
   "author": {
-    "name": "JonEcho"
+    "name": "jl-cmd"
   },
-  "homepage": "https://github.com/JonEcho/claude-dream",
-  "repository": "https://github.com/JonEcho/claude-dream",
+  "homepage": "https://github.com/jl-cmd/claude-dream",
+  "repository": "https://github.com/jl-cmd/claude-dream",
   "license": "MIT",
   "keywords": ["memory", "dream", "auto-dream", "consolidation", "maintenance"]
 }
