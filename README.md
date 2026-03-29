@@ -30,23 +30,14 @@ No changes are made without your approval.
 
 ## Install
 
-### Option A: Standalone skill (gives you `/dream`)
-
-Copy the skill directly into your Claude Code config:
-
-```bash
-mkdir -p ~/.claude/skills/dream
-curl -o ~/.claude/skills/dream/SKILL.md https://raw.githubusercontent.com/JonEcho/claude-dream/main/skills/dream/SKILL.md
-```
-
-### Option B: Plugin marketplace
+### Option A: Plugin marketplace (recommended)
 
 ```
 /plugin marketplace add JonEcho/claude-dream
 /plugin install dream@claude-dream
 ```
 
-### Option C: Local plugin directory
+### Option B: Local plugin directory
 
 ```bash
 git clone https://github.com/JonEcho/claude-dream.git
