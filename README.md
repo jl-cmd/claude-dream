@@ -30,33 +30,36 @@ No changes are made without your approval.
 
 ## Install
 
-### Option A: Marketplace (recommended)
+### Option A: Standalone skill (gives you `/dream`)
+
+Copy the skill directly into your Claude Code config:
+
+```bash
+mkdir -p ~/.claude/skills/dream
+curl -o ~/.claude/skills/dream/SKILL.md https://raw.githubusercontent.com/JonEcho/claude-dream/main/skills/dream/SKILL.md
+```
+
+### Option B: Plugin marketplace
 
 ```
 /plugin marketplace add JonEcho/claude-dream
 /plugin install dream@claude-dream
 ```
 
-### Option B: Local directory
+### Option C: Local plugin directory
 
 ```bash
 git clone https://github.com/JonEcho/claude-dream.git
 claude --plugin-dir ./claude-dream
 ```
 
-### Option C: Direct plugin-dir (no clone)
-
-```
-/plugin add --plugin-dir https://github.com/JonEcho/claude-dream
-```
-
 ## Usage
 
 ```
-/dream:dream
+/dream
 ```
 
-Or after install, Claude may invoke it automatically when you say "consolidate memory", "clean up memory", or "dream".
+Or Claude may invoke it automatically when you say "consolidate memory", "clean up memory", or "dream".
 
 ## Plugin Structure
 
