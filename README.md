@@ -87,7 +87,7 @@ Built from Claude Code's own system prompt instructions for auto memory, which d
 
 ### Sources
 
-- [Auto memory system prompt](https://code.claude.com/docs/en/memory) -- the format contract, memory types, and organization rules injected every session
+- **Claude Code auto memory system prompt** -- the format contract injected into every session, which defines memory types (`user`, `feedback`, `project`, `reference`), the MEMORY.md index structure (one-line entries, 200-line limit), frontmatter requirements, and organization rules. This is not a public docs page -- it's the client system prompt itself.
 - [Plugin creation docs](https://code.claude.com/docs/en/plugins) -- plugin structure and marketplace distribution
 - [Skills authoring docs](https://code.claude.com/docs/en/skills) -- skill file format and frontmatter
 
