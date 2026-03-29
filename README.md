@@ -85,6 +85,12 @@ The skill enforces the memory format contract from Claude Code's system prompt:
 
 Built from Claude Code's own system prompt instructions for auto memory, which define the format contract, memory types, and organization rules. The skill codifies these into an auditable, repeatable process.
 
+### Sources
+
+- [Auto memory system prompt](https://code.claude.com/docs/en/memory) -- the format contract, memory types, and organization rules injected every session
+- [Plugin creation docs](https://code.claude.com/docs/en/plugins) -- plugin structure and marketplace distribution
+- [Skills authoring docs](https://code.claude.com/docs/en/skills) -- skill file format and frontmatter
+
 ## License
 
 [MIT](LICENSE)
